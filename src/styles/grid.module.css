@@ -1,0 +1,94 @@
+@value vars: "./vars.module.css";
+@value system-font, phone, tablet-min from vars;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-font;
+}
+
+html {
+  /* need for better work spy scroll in sidebars */
+  /* scroll-padding-top: 1px; */
+}
+
+/* html[data-theme='light'] { */
+html {
+  --color-text: #d0d0d0;
+  --color-text-secondary: #fff;
+  --color-text-tertiary: #f4f4f4;
+  --color-background: #010101;
+  --color-card-bg: rgba(1, 1, 1, 0.75);
+  --color-hover: #10deeb;
+  --color-card-border-hover: #1e52d7;
+
+  /* TODO write jelper css function for colors */
+  --color-card-border: rgba(255, 255, 255, 0.25);
+}
+
+/* html[data-theme='dark'] {
+} */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  position: relative;
+  min-width: 320px;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/public/fonts/AeonikTRIAL-Bold.otf') format('otf');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/public/fonts/AeonikTRIAL-BoldItalic.otf') format('otf');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/public/fonts/AeonikTRIAL-Light.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/public/fonts/AeonikTRIAL-LightItalic.otf') format('otf');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/public/fonts/AeonikTRIAL-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/public/fonts/AeonikTRIAL-RegularItalic.otf') format('otf');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}

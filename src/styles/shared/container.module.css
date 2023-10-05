@@ -1,0 +1,19 @@
+@value vars: 'styles/vars.module.css';
+@value phone, tablet-max from vars;
+
+.container {
+  width: 100%;
+  padding-inline: 120px;
+}
+
+@media (max-width: tablet-max) {
+  .container {
+    padding-inline: 60px;
+  }
+}
+
+@media (max-width: phone) {
+  .container {
+    padding-inline: 16px;
+  }
+}

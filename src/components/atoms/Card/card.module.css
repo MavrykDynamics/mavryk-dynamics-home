@@ -1,0 +1,10 @@
+.card {
+  background-color: var(--color-card-bg);
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--color-card-border);
+}
+
+.card:hover {
+  border: 1px solid var(--color-card-border-hover);
+}

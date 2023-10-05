@@ -1,0 +1,67 @@
+@value vars: 'styles/vars.module.css';
+@value phone, tablet-max, phone-medium-min from vars;
+
+/* banner section */
+
+.bannerTextWrapper {
+  margin-top: 59.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 12px;
+}
+
+@media (max-width: phone) {
+  .bannerTextWrapper {
+    margin-top: 16.4px;
+  }
+}
+
+.bannerParagraph {
+  color: var(--color-text-secondary);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* background section */
+.landingBackground {
+  background-image: url('/public/assets/landing/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: bottom -15px right; */
+
+  align-self: flex-end;
+}
+
+/* cards section */
+.cards {
+  max-width: 702px;
+
+  padding-top: 52px;
+  margin-bottom: 130px;
+
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+@media (max-width: phone) {
+  .cards {
+    padding-top: 44.5px;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 12px;
+    column-gap: 0px;
+    margin-bottom: 138px;
+  }
+
+  .landingBackground {
+    background-image: url('/public/assets/landing/background-mobile.svg');
+    background-position: bottom;
+  }
+}
+@media (max-width: phone-medium-min) {
+  .landingBackground {
+    background-size: initial;
+  }
+}

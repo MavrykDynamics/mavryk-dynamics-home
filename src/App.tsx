@@ -1,16 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+// pages
+import { LandingPage } from 'pages/Landing';
+
+// global styles setup
+import 'styles/grid.module.css';
+
+// TODO add routes
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Mavryk Dynamics template</p>
-      </header>
-    </div>
-  );
+  return <LandingPage />;
 }
 
 export default App;
