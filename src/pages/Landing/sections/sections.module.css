@@ -1,0 +1,36 @@
+/* banner section */
+
+.bannerTextWrapper {
+  margin-top: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 12px;
+}
+
+.bannerParagraph {
+  color: var(--color-text-secondary);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* background section */
+.landingBackground {
+  background-image: url('/public/assets/landing/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  align-self: flex-end;
+}
+
+/* cards section */
+.cards {
+  max-width: 702px;
+
+  padding-top: 52px;
+  margin-bottom: 143.5px;
+
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}

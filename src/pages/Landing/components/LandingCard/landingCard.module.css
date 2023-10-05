@@ -1,0 +1,40 @@
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+}
+
+.cardHeaderText {
+  color: var(--color-text-secondary);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cardLink {
+  margin-left: auto;
+  text-decoration: none;
+}
+
+.cardDescription {
+  color: var(--color-text);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* icons */
+.linkIcon {
+  width: 17px;
+  height: 17px;
+}
+
+.headerIcon {
+  width: 24px;
+  height: 24px;
+
+  margin-right: 10px;
+}

@@ -1,0 +1,21 @@
+.footerContainer {
+  border-top: 1px solid rgba(244, 244, 244, 0.5);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.footerText {
+  color: var(--color-text-tertiary);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footerIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
