@@ -50,6 +50,7 @@
     padding-top: 44.5px;
     flex-direction: column;
     width: 100%;
+    max-width: 100%;
     row-gap: 12px;
     column-gap: 0px;
     margin-bottom: 138px;
