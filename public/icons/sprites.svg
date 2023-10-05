@@ -105,10 +105,13 @@
     </symbol>
 
     <!-- Icons -->
-    <symbol id="link-arrow"
-        xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-        <path d="M4 13.1667L12.6667 4.5M12.6667 4.5V12.82M12.6667 4.5H4.34667" stroke="white" stroke-opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <symbol id="link-arrow" width="16" height="17" viewBox="0 0 16 17"
+        xmlns="http://www.w3.org/2000/svg">
+        <g id="menu/Variant3">
+            <path id="Vector (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M3.84667 4.5C3.84667 4.22386 4.07052 4 4.34667 4H12.6667C12.9428 4 13.1667 4.22386 13.1667 4.5V12.82C13.1667 13.0961 12.9428 13.32 12.6667 13.32C12.3905 13.32 12.1667 13.0961 12.1667 12.82V5.70711L4.35355 13.5202C4.15829 13.7155 3.84171 13.7155 3.64645 13.5202C3.45118 13.325 3.45118 13.0084 3.64645 12.8131L11.4596 5H4.34667C4.07052 5 3.84667 4.77614 3.84667 4.5Z"/>
+        </g>
     </symbol>
+
 
     <symbol id="rocket-small"
         xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">

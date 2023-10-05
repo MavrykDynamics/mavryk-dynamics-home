@@ -30,6 +30,12 @@
 .linkIcon {
   width: 17px;
   height: 17px;
+  fill: var(--color-text-tertiary);
+  opacity: 0.5;
+}
+
+.linkIcon:hover {
+  fill: var(--color-hover);
 }
 
 .headerIcon {

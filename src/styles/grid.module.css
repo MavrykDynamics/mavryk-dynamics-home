@@ -22,6 +22,7 @@ html {
   --color-text-tertiary: #f4f4f4;
   --color-background: #010101;
   --color-card-bg: rgba(1, 1, 1, 0.75);
+  --color-hover: #10deeb;
 
   /* TODO write jelper css function for colors */
   --color-card-border: rgba(255, 255, 255, 0.25);
