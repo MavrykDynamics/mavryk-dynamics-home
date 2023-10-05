@@ -9,7 +9,7 @@
 @value min-phone:                 481px;
 @value phone-min:                 420px;
 @value min--phone-min:            calc(phone-min + 1px);
-@value phone-medium-min:          380px;
+@value phone-medium-min:          375px;
 @value phone-extra-min:           350px;
 
 /* sizes */

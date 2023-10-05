@@ -1,5 +1,5 @@
 @value vars: 'styles/vars.module.css';
-@value phone, tablet-max from vars;
+@value phone, tablet-max, phone-medium-min from vars;
 
 /* banner section */
 
@@ -53,5 +53,15 @@
     row-gap: 12px;
     column-gap: 0px;
     margin-bottom: 138px;
+  }
+
+  .landingBackground {
+    background-image: url('/public/assets/landing/background-mobile.svg');
+    background-position: bottom;
+  }
+}
+@media (max-width: phone-medium-min) {
+  .landingBackground {
+    background-size: initial;
   }
 }
