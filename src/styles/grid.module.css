@@ -23,6 +23,7 @@ html {
   --color-background: #010101;
   --color-card-bg: rgba(1, 1, 1, 0.75);
   --color-hover: #10deeb;
+  --color-card-border-hover: #1e52d7;
 
   /* TODO write jelper css function for colors */
   --color-card-border: rgba(255, 255, 255, 0.25);

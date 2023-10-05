@@ -4,7 +4,7 @@
 /* banner section */
 
 .bannerTextWrapper {
-  margin-top: 68px;
+  margin-top: 59.5px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -13,7 +13,7 @@
 
 @media (max-width: phone) {
   .bannerTextWrapper {
-    margin-top: 30.8px;
+    margin-top: 16.4px;
   }
 }
 
@@ -28,6 +28,7 @@
   background-image: url('/public/assets/landing/background.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-position: bottom -15px right; */
 
   align-self: flex-end;
 }

@@ -32,6 +32,7 @@
   height: 17px;
   fill: var(--color-text-tertiary);
   opacity: 0.5;
+  transition: fill 0.15s ease-in-out;
 }
 
 .linkIcon:hover {
