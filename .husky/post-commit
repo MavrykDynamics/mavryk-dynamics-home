@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-node ./src/frontend/scripts/git-post-commit.js
+node ./scripts/git-post-commit.js

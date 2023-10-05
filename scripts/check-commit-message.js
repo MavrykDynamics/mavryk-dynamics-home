@@ -1,8 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { spawnSync } = require('child_process');
-
-const p = path.join(__dirname, './.git/COMMIT_EDITMSG');
+const p = path.join(__dirname, '../.git/COMMIT_EDITMSG');
 const msg = fs.readFileSync(p, { encoding: 'utf8' });
 
 const taskReg = /^((MAV-[0-9]+))/;
