@@ -1,0 +1,20 @@
+@value container-max:             1920px;
+@value container:                 1280px;
+@value tablet-max:                1199px;
+@value tablet:                    991px;
+@value phone-max:                 830px;
+@value tablet-min:                768px;
+@value phone-middle:              620px;
+@value phone:                     480px;
+@value min-phone:                 481px;
+@value phone-min:                 420px;
+@value min--phone-min:            calc(phone-min + 1px);
+@value phone-medium-min:          380px;
+@value phone-extra-min:           350px;
+
+/* sizes */
+@value big-product-img-width:     625px;
+@value middle-product-img-width:  475px;
+
+/* fonts */
+@value system-font: -apple-system,  "Aeonik", sans-serif;
