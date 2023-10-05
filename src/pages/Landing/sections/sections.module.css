@@ -1,3 +1,6 @@
+@value vars: 'styles/vars.module.css';
+@value phone, tablet-max from vars;
+
 /* banner section */
 
 .bannerTextWrapper {
@@ -6,6 +9,12 @@
   flex-direction: column;
   align-items: flex-start;
   row-gap: 12px;
+}
+
+@media (max-width: phone) {
+  .bannerTextWrapper {
+    margin-top: 30.8px;
+  }
 }
 
 .bannerParagraph {
@@ -33,4 +42,15 @@
   display: flex;
   align-items: center;
   column-gap: 12px;
+}
+
+@media (max-width: phone) {
+  .cards {
+    padding-top: 44.5px;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 12px;
+    column-gap: 0px;
+    margin-bottom: 138px;
+  }
 }

@@ -1,3 +1,6 @@
+@value vars: 'styles/vars.module.css';
+@value phone, tablet-max from vars;
+
 .header {
   padding: 31.5px 0;
   display: flex;
@@ -13,4 +16,21 @@
 .logoText {
   width: 120px;
   height: 38px;
+}
+
+@media (max-width: phone) {
+  .header {
+    padding: 42px 0 24px 0;
+  }
+
+  .logo {
+    width: 21px;
+    height: 21px;
+    margin-right: 8px;
+  }
+
+  .logoText {
+    width: 67px;
+    height: 27px;
+  }
 }
