@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 
 // components
 import { Card } from 'components/atoms/Card';
@@ -10,8 +10,9 @@ import styles from './landingCard.module.css';
 type LandingCardProps = {
   iconId: string;
   headerText: string;
-  link?: string;
+  link: string;
   description: string;
+  onClick?: (e: React.MouseEvent<HTMLDivElement>, link: string) => void;
 };
 
 export const LandingCard = ({
@@ -19,9 +20,10 @@ export const LandingCard = ({
   headerText,
   link,
   description,
+  onClick,
 }: LandingCardProps) => {
   return (
-    <Card>
+    <Card onClick={(e) => onClick?.(e, link)} hasPointer>
       <div className={styles.cardContent}>
         <div className={styles.cardHeader}>
           <Icon id={iconId} className={styles.headerIcon} />
