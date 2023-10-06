@@ -8,3 +8,7 @@
 .card:hover {
   border: 1px solid var(--color-card-border-hover);
 }
+
+.card.pointer {
+  cursor: pointer;
+}
