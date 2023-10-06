@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 
 // components
 import { Card } from 'components/atoms/Card';
