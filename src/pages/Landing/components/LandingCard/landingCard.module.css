@@ -23,6 +23,7 @@
 
 /* icons */
 .linkIcon {
+  align-self: start;
   width: 17px;
   height: 17px;
   fill: var(--color-text-tertiary);
