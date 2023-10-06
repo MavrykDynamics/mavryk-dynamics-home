@@ -24,8 +24,7 @@ export const BannerTextSection = () => {
           alt="banner-text"
         />
         <p className={styles.bannerParagraph}>
-          Lorem ipsum dolor sit amet consectetur. Nam sapien varius amet
-          convallis malesuada rutrum.
+          Real assets, Real people, Real solutions. Building a smarter, more secure future. Blockchain, Done Better.
         </p>
       </div>
     </section>
