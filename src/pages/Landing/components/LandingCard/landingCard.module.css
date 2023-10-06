@@ -15,11 +15,6 @@
   font-weight: 500;
 }
 
-.cardLink {
-  margin-left: auto;
-  text-decoration: none;
-}
-
 .cardDescription {
   color: var(--color-text);
   font-size: 14px;
@@ -32,10 +27,7 @@
   height: 17px;
   fill: var(--color-text-tertiary);
   opacity: 0.5;
-}
-
-.linkIcon:hover {
-  fill: var(--color-hover);
+  margin-left: auto;
 }
 
 .headerIcon {

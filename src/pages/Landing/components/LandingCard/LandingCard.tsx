@@ -23,21 +23,12 @@ export const LandingCard = ({
   onClick,
 }: LandingCardProps) => {
   return (
-    <Card onClick={(e) => onClick?.(e, link)} hasPointer>
+    <Card link={link}>
       <div className={styles.cardContent}>
         <div className={styles.cardHeader}>
           <Icon id={iconId} className={styles.headerIcon} />
           <div className={styles.cardHeaderText}>{headerText}</div>
-          {link && (
-            <a
-              href={link}
-              target="_blank"
-              className={styles.cardLink}
-              rel="noreferrer"
-            >
-              <Icon id="link-arrow" className={styles.linkIcon} />
-            </a>
-          )}
+          {link && <Icon id="link-arrow" className={styles.linkIcon} />}
         </div>
         <div className={styles.cardDescription}>{description}</div>
       </div>

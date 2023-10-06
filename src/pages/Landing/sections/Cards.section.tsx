@@ -11,15 +11,6 @@ import styles from './sections.module.css';
 import { cardsData } from '../mocks/cards.mock';
 
 export const CardsSection = () => {
-  const handleCardClick = useCallback(
-    (e: React.MouseEvent<HTMLDivElement>, link: string) => {
-      e.stopPropagation();
-
-      window.open(link, '_blank', 'noreferrer');
-    },
-    []
-  );
-
   return (
     <section className={sharedStyles.container}>
       <div className={styles.cards}>
@@ -30,7 +21,6 @@ export const CardsSection = () => {
             link={card.link}
             description={card.description}
             headerText={card.headerText}
-            onClick={handleCardClick}
           />
         ))}
       </div>
