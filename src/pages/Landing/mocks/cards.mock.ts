@@ -5,13 +5,13 @@ export const cardsData = [
     iconId: 'mav-logo-small',
     link: 'https://mavryk.org/',
     description:
-      'Mavryk Network lorem ipsum dolor sit amet consectetur lorem ipsum dolor. Mavryk Network lorem ipsum dolor sit amet consectetur lorem ipsum dolor. Mavryk Network lorem ipsum dolor sit amet consectetur lorem ipsum dolor.',
+      'Mavryk Network is a bespoke Layer 1 blockchain, with enshrined rollups to empower traditional assets as tokenized RWAs, seamlessly integrating with DeFi. Democratizing finance with a digital commonwealth.',
   },
   {
     headerText: 'Mavryk Finance',
     iconId: 'rocket-small',
     link: 'https://ghostnet.mavryk.finance/',
     description:
-      'Mavryk Finance lorem ipsum dolor sit amet consectetur lorem ipsum dolor. Mavryk Network lorem ipsum dolor sit amet consectetur lorem ipsum dolor. Mavryk Network lorem ipsum dolor sit amet consectetur lorem ipsum dolor.',
+      'Mavryk Finance is a decentralized, non-custodial, community owned financial platform, that allows users to lend, borrow, and earn on their own terms.',
   },
 ];
