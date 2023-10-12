@@ -1,5 +1,10 @@
 .footerContainer {
   border-top: 1px solid rgba(244, 244, 244, 0.5);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) -43.75%,
+    rgba(0, 0, 0, 0.75) 100%
+  );
 }
 
 .footer {
@@ -10,7 +15,7 @@
 }
 
 .footerText {
-  color: var(--color-text-tertiary);
+  color: var(--color-text-secondary);
   font-size: 14px;
   font-weight: 400;
 }

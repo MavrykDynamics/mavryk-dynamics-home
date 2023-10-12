@@ -11,7 +11,7 @@ type LandingCardProps = {
   iconId: string;
   headerText: string;
   link: string;
-  description: string;
+  description: string | JSX.Element;
   onClick?: (e: React.MouseEvent<HTMLDivElement>, link: string) => void;
 };
 
