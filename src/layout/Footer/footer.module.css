@@ -10,7 +10,7 @@
 }
 
 .footerText {
-  color: var(--color-text-tertiary);
+  color: var(--color-text-secondary);
   font-size: 14px;
   font-weight: 400;
 }

@@ -1,7 +1,10 @@
+@value vars: 'styles/vars.module.css';
+@value phone from vars;
+
 .cardContent {
   display: flex;
   flex-direction: column;
-  row-gap: 12px;
+  row-gap: 16px;
 }
 
 .cardHeader {
@@ -11,14 +14,18 @@
 
 .cardHeaderText {
   color: var(--color-text-secondary);
-  font-size: 16px;
+  font-size: 20px;
+  font-style: normal;
   font-weight: 500;
+  line-height: normal;
 }
 
 .cardDescription {
   color: var(--color-text);
-  font-size: 14px;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 400;
+  line-height: normal;
 }
 
 /* icons */
@@ -36,4 +43,14 @@
   height: 24px;
 
   margin-right: 10px;
+}
+
+@media (max-width: phone) {
+  .cardHeaderText {
+    font-size: 16px;
+  }
+
+  .cardDescription {
+    font-size: 14px;
+  }
 }
