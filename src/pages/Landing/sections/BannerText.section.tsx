@@ -24,7 +24,7 @@ export const BannerTextSection = () => {
           alt="banner-text"
         />
         <p className={styles.bannerParagraph}>
-          Where visionary pioneers spearhead the vanguard of web3 innovation
+          Real assets, Real people, Real solutions. Building a smarter, more secure future. Blockchain, Done Better.
         </p>
       </div>
     </section>
