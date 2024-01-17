@@ -18,17 +18,17 @@ export const cardsData = [
     ),
   },
   {
-    headerText: 'Mavryk Finance',
+    headerText: 'Maven Finance',
     iconId: 'rocket-small',
-    link: 'https://ghostnet.mavryk.finance/',
+    link: 'https://ghostnet.mavenfinance.io/',
     description: (
       <>
-        Mavryk Finance is a decentralized, non-custodial, community owned
+        Maven Finance is a decentralized, non-custodial, community owned
         financial platform, that allows users to lend, borrow, and earn on their
         own terms.
         <br />
         <br />
-        Users also receive rewards for managing Mavryk Finance and operating
+        Users also receive rewards for managing Maven Finance and operating
         decentralized oracles for on-chain data feeds for the wider Mavryk
         ecosystem.
       </>
