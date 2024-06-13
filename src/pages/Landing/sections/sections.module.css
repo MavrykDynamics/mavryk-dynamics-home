@@ -45,14 +45,14 @@
 
 /* cards section */
 .cards {
-  max-width: 720px;
+  max-width: 1028px;
 
   padding-top: 52px;
   margin-bottom: 130px;
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 12px;
+  grid-gap: 24px;
 }
 
 @media (max-width: phone) {

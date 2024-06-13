@@ -4,7 +4,7 @@
 .cardContent {
   display: flex;
   flex-direction: column;
-  row-gap: 16px;
+  row-gap: 24px;
 }
 
 .cardHeader {
@@ -14,10 +14,10 @@
 
 .cardHeaderText {
   color: var(--color-text-secondary);
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 28.8px;
 }
 
 .cardDescription {
@@ -25,7 +25,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 19.2px;
 }
 
 /* icons */
