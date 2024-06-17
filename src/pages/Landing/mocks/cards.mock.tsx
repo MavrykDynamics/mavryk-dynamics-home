@@ -9,10 +9,6 @@ export const cardsData = [
         Mavryk is a bespoke Layer 1 blockchain, with enshrined rollups to
         empower traditional assets as tokenized RWAs, seamlessly integrating
         with DeFi.
-        <div style={{ height: 16 }} />
-        Crafted as a digital commonwealth, Mavryk offers a suite of on-chain
-        features, such as grants, treasury, liquidity incentives, upgrades,
-        domains, and more.
       </>
     ),
   },
@@ -25,10 +21,6 @@ export const cardsData = [
         Maven Finance is a decentralized, non-custodial, community owned
         financial platform, that allows users to lend, borrow, and earn on their
         own terms.
-        <div style={{ height: 16 }} />
-        Users also receive rewards for managing Maven Finance and operating
-        decentralized oracles for on-chain data feeds for the wider Mavryk
-        ecosystem.
       </>
     ),
   },
@@ -38,13 +30,9 @@ export const cardsData = [
     link: 'https://equiteez.com/',
     description: (
       <>
-        Mavryk is a bespoke Layer 1 blockchain, with enshrined rollups to
-        empower traditional assets as tokenized RWAs, seamlessly integrating
-        with DeFi.
-        <div style={{ height: 16 }} />
-        Crafted as a digital commonwealth, Mavryk offers a suite of on-chain
-        features, such as grants, treasury, liquidity incentives, upgrades,
-        domains, and more.
+        The future of real estate ownership is digital. Start with just $50 to
+        invest in fractionalized, fully compliant, income producing assets
+        worldwide.
       </>
     ),
   },
@@ -54,13 +42,9 @@ export const cardsData = [
     link: 'https://chromewebstore.google.com/detail/mavryk-wallet/cgddkajmbckbjbnondgfcbcojjjdnmji',
     description: (
       <>
-        Maven Finance is a decentralized, non-custodial, community owned
-        financial platform, that allows users to lend, borrow, and earn on their
-        own terms.
-        <div style={{ height: 16 }} />
-        Users also receive rewards for managing Maven Finance and operating
-        decentralized oracles for on-chain data feeds for the wider Mavryk
-        ecosystem.
+        Unlock a realm of maverick opportunities with the Mavryk Wallet — a
+        user-centric solution empowering mainstream users to effortlessly
+        navigate crypto, real-world assets, DeFi, and collectibles
       </>
     ),
   },
