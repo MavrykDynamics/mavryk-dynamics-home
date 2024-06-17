@@ -15,7 +15,7 @@ export const cardsData = [
   {
     headerText: 'Maven Finance',
     iconId: 'rocket-small',
-    link: 'https://ghostnet.mavenfinance.io/',
+    link: 'https://atlasnet.mavenfinance.io/',
     description: (
       <>
         Maven Finance is a decentralized, non-custodial, community owned
