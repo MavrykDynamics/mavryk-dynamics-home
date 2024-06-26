@@ -4,11 +4,11 @@
 /* banner section */
 
 .bannerTextWrapper {
-  margin-top: 59.5px;
+  margin-top: 21.5px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  row-gap: 12px;
+  row-gap: 44px;
 }
 
 @media (max-width: phone) {
@@ -18,7 +18,6 @@
 }
 
 .bannerParagraph {
-  margin-top: 18px;
   color: var(--color-text-secondary);
   font-size: 16px;
   font-weight: 400;
@@ -46,14 +45,13 @@
 
 /* cards section */
 .cards {
-  max-width: 1028px;
-
+  max-width: 1040px;
   padding-top: 64px;
-  margin-bottom: 130px;
+  margin-bottom: 84px;
 
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 24px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
 }
 
 @media (max-width: phone) {
