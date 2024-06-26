@@ -17,4 +17,4 @@
 @value middle-product-img-width:  475px;
 
 /* fonts */
-@value system-font: -apple-system,  "Aeonik", sans-serif;
+@value system-font: "Aeonik", -apple-system,  sans-serif;

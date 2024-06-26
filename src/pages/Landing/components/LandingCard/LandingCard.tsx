@@ -28,7 +28,6 @@ export const LandingCard = ({
         <div className={styles.cardHeader}>
           <Icon id={iconId} className={styles.headerIcon} />
           <div className={styles.cardHeaderText}>{headerText}</div>
-          {link && <Icon id="link-arrow" className={styles.linkIcon} />}
         </div>
         <div className={styles.cardDescription}>{description}</div>
       </div>
