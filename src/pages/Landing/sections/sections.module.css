@@ -20,6 +20,7 @@
 .bannerParagraph {
   color: var(--color-text-secondary);
   font-size: 16px;
+
   font-weight: 400;
 }
 
@@ -45,7 +46,7 @@
 
 /* cards section */
 .cards {
-  max-width: 1040px;
+  max-width: 1048px; /* 1074 ?*/
   padding-top: 64px;
   margin-bottom: 84px;
 
