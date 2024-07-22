@@ -30,9 +30,9 @@ export const cardsData = [
     link: 'https://equiteez.com/',
     description: (
       <>
-        Mavryk Finance is a decentralized, non-custodial, community owned
-        financial platform, that allows users to lend, borrow, and earn on their
-        own terms.
+          The future of real estate ownership is digital. Start with just $50 to
+          invest in fractionalized, fully compliant, income producing assets
+          worldwide.
       </>
     ),
   },
@@ -42,9 +42,9 @@ export const cardsData = [
     link: 'https://chromewebstore.google.com/detail/mavryk-wallet/cgddkajmbckbjbnondgfcbcojjjdnmji',
     description: (
       <>
-        Mavryk Finance is a decentralized, non-custodial, community owned
-        financial platform, that allows users to lend, borrow, and earn on their
-        own terms.
+          Unlock a realm of maverick opportunities with the Mavryk Wallet — a
+          user-centric solution empowering mainstream users to effortlessly
+          navigate crypto, real-world assets, DeFi, and collectibles
       </>
     ),
   },
