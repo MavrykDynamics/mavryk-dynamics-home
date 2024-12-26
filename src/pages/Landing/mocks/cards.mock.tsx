@@ -18,7 +18,7 @@ export const cardsData = [
     link: 'https://atlasnet.mavenfinance.io/',
     description: (
       <>
-        Mavryk Finance is a decentralized, non-custodial, community owned
+        Maven Finance is a decentralized, non-custodial, community owned
         financial platform, that allows users to lend, borrow, and earn on their
         own terms.
       </>
