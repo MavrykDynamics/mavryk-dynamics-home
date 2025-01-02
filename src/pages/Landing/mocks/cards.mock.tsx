@@ -48,4 +48,14 @@ export const cardsData = [
       </>
     ),
   },
+    {
+        headerText: 'Nexus',
+        iconId: 'nex',
+        link: 'https://nexus.mavryk.org',
+        description: (
+            <>
+                Explore blocks, participate in network governance, manage treasury functions, and navigate domain services through a single, intuitive platform, putting the full potential of decentralized technology at your fingertips.
+            </>
+        ),
+    },
 ];
