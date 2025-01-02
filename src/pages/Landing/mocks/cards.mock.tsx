@@ -6,9 +6,7 @@ export const cardsData = [
     link: 'https://mavryk.org/',
     description: (
       <>
-        Mavryk is a bespoke Layer 1 blockchain, with enshrined rollups to
-        empower traditional assets as tokenized RWAs, seamlessly integrating
-        with DeFi.
+          A bespoke Layer 1 blockchain designed to bridge real-world assets with the dynamic realm of DeFi and foster a thriving & secure digital economy.
       </>
     ),
   },
@@ -18,9 +16,7 @@ export const cardsData = [
     link: 'https://atlasnet.mavenfinance.io/',
     description: (
       <>
-        Maven Finance is a decentralized, non-custodial, community owned
-        financial platform, that allows users to lend, borrow, and earn on their
-        own terms.
+          A DeFi bank for people, Maven is a DAO operated financial ecosystem that lets users borrow and earn on their terms, while participating in the governance of the platform.
       </>
     ),
   },
@@ -30,9 +26,7 @@ export const cardsData = [
     link: 'https://equiteez.com/',
     description: (
       <>
-          The future of real estate ownership is digital. Start with just $50 to
-          invest in fractionalized, fully compliant, income producing assets
-          worldwide.
+          A digital platform that allows investors to purchase fractional shares of fully compliant, income-generating assets worldwide, starting from as little as $50.
       </>
     ),
   },
@@ -42,10 +36,18 @@ export const cardsData = [
     link: 'https://chromewebstore.google.com/detail/mavryk-wallet/cgddkajmbckbjbnondgfcbcojjjdnmji',
     description: (
       <>
-          Unlock a realm of maverick opportunities with the Mavryk Wallet — a
-          user-centric solution empowering mainstream users to effortlessly
-          navigate crypto, real-world assets, DeFi, and collectibles
+          A secure, user-friendly wallet that connects you to the Mavryk ecosystem and simplifies your experience with crypto, RWAs, DeFi, and collectibles.
       </>
     ),
   },
+    {
+        headerText: 'Nexus',
+        iconId: 'nex',
+        link: 'https://nexus.mavryk.org',
+        description: (
+            <>
+                Explore blocks, participate in network governance, manage treasury functions, and navigate domain services through a single, intuitive platform, putting the full potential of decentralized technology at your fingertips.
+            </>
+        ),
+    },
 ];
