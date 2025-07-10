@@ -7,6 +7,7 @@ import { Icon } from 'components/atoms/Icon';
 // styles
 import sharedStyles from 'styles/shared/container.module.css';
 import styles from './footer.module.css';
+import { Socials } from 'components/organisms/Socials/Socials';
 
 export const Footer = () => {
   return (
@@ -14,8 +15,12 @@ export const Footer = () => {
       className={classNames(sharedStyles.container, styles.footerContainer)}
     >
       <div className={styles.footer}>
-        <Icon id="copyright" className={styles.footerIcon} />
-        <div className={styles.footerText}>2024 Mavryk Dynamics</div>
+        <div className={styles.copyrightBlock}>
+          <Icon id="copyright" className={styles.footerIcon} />
+          <div className={styles.footerText}>2024 Mavryk Dynamics</div>
+        </div>
+
+        <Socials />
       </div>
     </footer>
   );
