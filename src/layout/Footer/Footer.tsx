@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import classNames from 'classnames';
 
 // components
@@ -10,6 +10,8 @@ import styles from './footer.module.css';
 import { Socials } from 'components/organisms/Socials/Socials';
 
 export const Footer = () => {
+  const year = useMemo(() => new Date().getFullYear(), []);
+
   return (
     <footer
       className={classNames(sharedStyles.container, styles.footerContainer)}
@@ -17,7 +19,7 @@ export const Footer = () => {
       <div className={styles.footer}>
         <div className={styles.copyrightBlock}>
           <Icon id="copyright" className={styles.footerIcon} />
-          <div className={styles.footerText}>2024 Mavryk Dynamics</div>
+          <div className={styles.footerText}>{year} Mavryk Dynamics</div>
         </div>
 
         <Socials />
