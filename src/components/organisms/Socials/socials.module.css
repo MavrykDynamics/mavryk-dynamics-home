@@ -15,11 +15,6 @@
   fill: var(--color-text-secondary);
 }
 
-.socialMedia svg.l {
-  width: 26px;
-  height: 26px;
-}
-
 .wrapper {
   position: relative;
 }
