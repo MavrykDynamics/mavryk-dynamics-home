@@ -48,10 +48,10 @@
 .cards {
   max-width: 1440px;
   padding-top: 64px;
-  margin-bottom: 84px;
+  margin-bottom: 64px;
 
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 16px;
 }
 
